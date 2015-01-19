@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a web developer from the land of southern California. When I'm not developing, I like geeking out with my friends on co-op games, road trips to national parks, and cooking with the family.
 
-### More Information
+### Favorite Projects
 
-A place to include any other types of information that you'd like to include about yourself. 
+[Meteor](https://www.meteor.com/)
 
-### Contact me
+### Favorite Links
 
-[email@domain.com](mailto:email@domain.com)
+As a web developer, I've come across tons of website that help me expand my knowledge in web development:
+
+[A List Apart: For People Who Make Websites](http://alistapart.com/)
+
+### Contact Me
+
+I'm interested in building and/or collaborating with you on your next web application project.
