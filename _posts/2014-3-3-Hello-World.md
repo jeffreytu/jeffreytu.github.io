@@ -1,10 +1,17 @@
 ---
 layout: post
-title: You're up and running!
+title: Simple success with Jekyll Now!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
+It was after reading Barry Clark's post on [Build A Blog With Jekyll And GitHub Pages](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/),
+I became fascinated with the idea hacker-style blogging on GitHub. So of course I jumped in.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+What is Jekyll anyway?
+It's a static site generator for plain text using markdown. There's no database to manage, and great customization options for layouts, permalinks, posts, and more.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+First things first, I develop on Windows. Does that make you cringe?
+
+My first hurdle was finding out that [Jekyll wasn't supported on Windows officially](http://jekyllrb.com/docs/windows/).
+Ugh, but okay, there's unnofficial support. Turns out installing Ruby was a mess to begin with. I fixed a couple errors before stumbling upon madhur's [Building portable Jekyll for Windows](http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html). This sounds awesome right? Aside from modifying some environment variables, it was a breeze. I was able to $ jekyll immediately.
+
+Happy ending right? Well there's a bonus ending. [Turns out Barry Clark introduced a way to create a Jekyll blog without the setup or use of command line!](https://github.com/barryclark/jekyll-now)
