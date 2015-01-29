@@ -1,3 +1,7 @@
+---
+layout: post
+title: Backbone Validation Error and Callback
+---
 After several hours of head bashing on why Backbone wasn't giving me an error callback from the .save method so I can display it do the user, I finally found the answer - it was taken out of Backbone 0.9.9
 
 More information: https://github.com/jashkenas/backbone/issues/2153
