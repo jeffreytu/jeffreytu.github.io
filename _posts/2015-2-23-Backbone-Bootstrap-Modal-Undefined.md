@@ -6,7 +6,7 @@ title: Why is the bootstrap .modal function undefined in Backbone?
 So you want to render a .modal from bootstrap.js in Backbone, but get `undefined` when calling it?
 
 Inside your backbone.view.js, you probably be setting up a render function to render the modal:
-```javascript
+```
 render: function() {
   var context = this.model.toJSON();
   this.$el.html(this.temp(context)).appendTo(document.body);
