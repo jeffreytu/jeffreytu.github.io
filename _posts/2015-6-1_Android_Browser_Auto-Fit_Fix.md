@@ -11,9 +11,10 @@ So now the solution is to find something to work around this pre-selected androi
 
 http://stackoverflow.com/questions/8508889/android-autofit-mode-causing-issues-with-css-width-in-web-page
 
-```background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==); 
-    background-repeat:repeat;
-    ```
+```
+background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==); 
+background-repeat:repeat;
+```
 The workaround is simply adding a background to the text area, either a <p> or <span> ect.
 
 Oh Android.
